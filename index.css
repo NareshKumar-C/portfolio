@@ -5,6 +5,9 @@ body{
     background-color: var(--primary);
     font-family:"Newsreader", serif;
 }
+html {
+   scroll-behavior: smooth;
+}
 #navbar{
     position: relative;
     animation: NAV 1s ease-in-out forwards;
@@ -75,6 +78,16 @@ a:hover{
     font-weight: bold;
     font-size: 20px;
     transition: all 2s ease;
+}
+.btn{
+    color: blue;
+    font-size: 25px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.btn:hover{
+    text-decoration: none;
+    cursor: pointer;
+    color:orangered;
 }
 button:hover{
     transform: translateY(-20px);
@@ -711,3 +724,4 @@ margin-left: 450px;
         text-align: center;
     }
 }
+
